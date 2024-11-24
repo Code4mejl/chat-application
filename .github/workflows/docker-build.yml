@@ -42,3 +42,5 @@ jobs:
         push: true  # Push the image to the registry (Docker Hub or others)
         tags: yourdockerhubusername/your-image-name:${{ github.sha }}  # Tag the image with the commit SHA
         cache-from: type=gha  # Use GitHub Actions cache as a cache source
+
+...
