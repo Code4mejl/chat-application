@@ -1,3 +1,13 @@
+    - name: Log in to Docker Hub
+      uses: docker/login-action@v2
+      with:
+        username: ${{ secrets.Priyanka}}
+        password: ${{ secrets.Priyankajl@123 }}
+
+
+
+
+
 name: Build and Push Docker Image
 
 # Trigger workflow on push to the production branch
